@@ -1,0 +1,5 @@
+Notas :smiley: Conda: Eliminar ambientes y librerías.
+
+    conda remove <paquete> para desinstalar un paquete en particular. 🗞️
+    conda env remove <nombre de ambiente> para eliminar un ambiente completo 👀.
+    No se puede eliminar el ambiente en el que te encuentras 🤔. Necesitas desactivarlo primero.
