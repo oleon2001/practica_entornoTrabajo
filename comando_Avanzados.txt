@@ -33,3 +33,15 @@ Instalar ambiente virtual desde archivo:
 conda env create --file nombre_archivo.yml
 
 Espero pueda ser de utilidad para todos!
+
+
+Notas :smile: Conda: Comandos avanzados.
+
+    Para buscar paquetes: Anaconda.org
+    Podemos encontrar algún paquete que necesitemos en un channel como conda-forge. 😯
+    conda install --channel <nombre del canal> <paquete> Para instalar un paquete especificando el channel de donde buscarlo.
+    conda list --revision para listar las revisiones (modificaciones) de tu ambiente; con esto puedes volver en el tiempo a un estado pasado de tu ambiente virtual.
+    conda install --revision <falg> para regresar a un estado pasado de tu ambiente. 🌲
+    conda env export --no-build Para compartir nuestro ambiente de conda y que otras personas puedan tener exactamente el mismo ambiente que tú.
+    Con conda env export --from-history --file <archivo>.yml para compartir únicamente los paquetes que hayamos especificado explícitamente. 🔍. Esta es la mejor manera!
+    Para instalar un ambiente del cual recibimos un archivo .yml hacemos conda env create --file <archivo>.yml 🤯

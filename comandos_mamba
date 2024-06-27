@@ -1,0 +1,41 @@
+#Instalar MANBA
+conda install --channel conda-forge mamba
+mamba help 
+mamba --help
+#Desinstalar ambiente
+conda env remove --name py39
+#Con MANBA
+mamba env create --file environment.yaml
+#Activar ambiente
+conda activate py39
+
+
+#otras Notas
+
+Instalar mamba
+
+conda install -c conda-forge mamba
+
+Ayuda de mamba, paquetes, funciones disponibles
+
+mamba --help
+
+Instalar librerías
+
+mamba install
+
+Importar ambiente a partir de una archivo
+
+mamba env create --file enviroment.yml
+
+Activar ambiente
+
+conda activate py39
+
+Listar librerias
+
+conda list pandas
+conda list python
+
+
+TODOS LOS COMANDOS DE ANTES COMO CONDA PERO CON MAMBA QUE ES MUCHO MAS RAPIDO SEGUN EL CARAJO DEL CURSO QUE LE CREO YO LE CREO PS
